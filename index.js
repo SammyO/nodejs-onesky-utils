@@ -6,6 +6,7 @@ global.rootRequire = function (name) {
 };
 
 module.exports = {
+  getListOfProjectGroups: rootRequire('lib/getListOfProjectGroups.js'),
   getFile: rootRequire('lib/getFile.js'),
   getMultilingualFile: rootRequire('lib/getMultilingualFile.js'),
   postFile: rootRequire('lib/postFile.js')
